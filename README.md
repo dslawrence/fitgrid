@@ -158,3 +158,4 @@ These callbacks are available to be called whenever a fitgrid is rendered. The s
 # Please note
 
 * Any padding that you apply to the elmement you are targeting will be removed by "fitgrid". Fitgrid uses the padding to center the contents.
+* Currently a fitgrid will adapt to fit any size of screen, which in some cases leaves the display too small to be useful or unexpectedly large. There is code inside of fitgrid to provide multiple size options, so that the fitgrid classes that apply vary depending on device size. This isn't fully worked out yet, but can be seen in some of the "on/off" nature of the class names.
